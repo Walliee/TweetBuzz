@@ -13,9 +13,17 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>TweetBuzz</servlet-name>
 		<servlet-class>com.anshul.tweetbuzz.TweetBuzzServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>Trends</servlet-name>
+		<servlet-class>com.anshul.tweetbuzz.TweetTrendsServlet</servlet-class>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>TestAPI</servlet-name>
 		<url-pattern>/api/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Trends</servlet-name>
+		<url-pattern>/trends</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>TweetBuzz</servlet-name>
