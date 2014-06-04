@@ -1,4 +1,4 @@
-TweetBuzz by Anshul Mehra and Srujan Saggam (0508749)
+TweetBuzz by Anshul Mehra and Srujan Saggam
 
 TweetBuzz is a data analytics web application
 that focuses on a new web trend called microblogging.
